@@ -4,10 +4,9 @@ def get_coordinate(record):
 
 
 def convert_coordinate(coordinate):
-    a,b=coordinate
-    tup= tuple((a,b))
-    print(tup)
-
+    num1= coordinate[0]
+    num2= coordinate[1]
+    return (num1,num2)
 
 
 def create_record(azara, rui):
